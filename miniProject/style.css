@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+    text-align:center;
+    color:white;
+}
+
+.container{
+    /* outline:2px solid yellow; */
+    height:70vh;
+    /* width:auto; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    /* outline:2px solid red; */
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    box-shadow:0 0 10px 2px yellow;
+    border:none;
+    font-size: 8vmin;
+    color:red;
+
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: aliceblue;
+    color:black;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0 10px 2px yellow;
+    border:none;
+}
+
+#reset-btn:hover{
+    background-color: navy;
+    color:white;
+     box-shadow: 0 0 20px 2px white;
+}
+
+.box:hover{
+    background-color: aliceblue;
+    color: blue;
+    box-shadow: 0 0 10px 2px red;
+}
+
+#new-btn{
+    padding:1rem;
+    margin:0.5rem;
+    font-size:1.25rem;
+    background-color: aliceblue;
+    color:black;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0 10px 2px yellow;
+    border:none;
+}
+
+#new-btn:hover{
+    background-color: navy;
+    color:white;
+     box-shadow: 0 0 100px 20px white;
+}
+
+#msg{
+    background-color:greenyellow;
+    color: red;
+    box-shadow: 0 0 30px 3px white;
+    padding:1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    font-size:1.25rem;
+    font-weight: bold;
+}
+
+.hide{
+    display:none;
+}
+
+/* .msg-container{
+    height:100vh;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+    display:none;
+}  */
+
+.hidden{
+    display:none;
+}
+
+#draw{
+     /* background:linear-gradient(to right, red, orange); */
+     background:radial-gradient(red, orange);
+    color: yellow;
+    box-shadow: 0 0 30px 3px white;
+    padding:1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    font-size:1.25rem;
+    font-weight: bold;
+}
